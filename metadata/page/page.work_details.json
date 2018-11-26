@@ -1,0 +1,45 @@
+{
+  "_id": "page.work_details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.work_details--email.auto_name__3",
+      "_type": "email",
+      "label": "What is your work email address?",
+      "name": "auto_name__3"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.work_details--text.auto_name__4",
+      "_type": "text",
+      "errors": {
+        "maxLength": {
+          "inline": "Your input for {control} is too long. You should provide no more than {maxLength} characters.",
+          "summary": "Your input for {control} is too long. You should provide no more than {maxLength} characters."
+        },
+        "minLength": {
+          "inline": "Your answer for {control} is too short. It should be at least {minLength} characters.",
+          "summary": "Your answer for {control} is too short. It should be at least {minLength} characters."
+        }
+      },
+      "label": "What is your work telephone number?",
+      "name": "auto_name__4",
+      "validation": {
+        "maxLength": 11,
+        "minLength": 9,
+        "required": false
+      },
+      "widthClassInput": "20"
+    }
+  ],
+  "heading": "Work details",
+  "sectionHeading": "Applicant's details",
+  "url": "work_details"
+}

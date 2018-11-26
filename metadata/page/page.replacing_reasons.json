@@ -1,0 +1,50 @@
+{
+  "_id": "page.replacing_reasons",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.replacing_reasons--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply.",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.replacing_reasons--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "label": "Renewal of expired pass",
+          "name": "auto_name__7"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.replacing_reasons--checkboxes--checkbox.auto_name__8",
+          "_type": "checkbox",
+          "label": "Damaged pass",
+          "name": "auto_name__8"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.replacing_reasons--checkboxes--checkbox.auto_name__9",
+          "_type": "checkbox",
+          "label": "Change of name",
+          "name": "auto_name__9"
+        }
+      ],
+      "legend": "What are the reasons for replacing your security pass?"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__6",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "replacing_reasons"
+}

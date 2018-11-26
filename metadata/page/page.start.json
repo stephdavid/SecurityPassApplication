@@ -1,9 +1,25 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "**This is the main content section of your start page**\r\n\r\n[Edit this page](/edit) with content for your own service.\r\n\r\n## Adding more content\r\n\r\nYou can add multiple headings, links and paragraphs - all in this one content section.\r\n\r\nUse [markdown](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/markdown) to format headings, bullet lists and links.",
-  "heading": "This is your start page heading",
-  "lede": "This is your start page first paragraph. You can only have one paragraph here.",
-  "steps": [],
+  "body": "## Learn more about United Kingdom Security Vetting\r\n\r\nTo learn more about UK security vetting, you can follow the link below.\r\n\r\n[About security.](https://www.gov.uk/guidance/security-vetting-and-clearance)",
+  "components": [
+    {
+      "_id": "page.start--warning",
+      "_type": "warning",
+      "html": "You must wear your pass and make certain it is visible at all times when inside 102 Petty France and Clive House."
+    }
+  ],
+  "heading": "Security Pass application",
+  "lede": "Use this form to apply for a security pass online. A security pass will grant you access to the building of Ministry of Justice at 102 Petty France and Clive House.",
+  "steps": [
+    "page.personal_details",
+    "page.work_details",
+    "page.request_reason",
+    "page.visiting",
+    "page.replacement_pass",
+    "page.replacing_reasons",
+    "page.check_answers",
+    "page.confirmation"
+  ],
   "url": "/"
 }

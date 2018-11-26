@@ -1,0 +1,43 @@
+{
+  "_id": "page.request_reason",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.request_reason--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.request_reason--radios.auto_name__5--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Permanent staff/fixed term contract",
+          "show": true,
+          "value": "Yes"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.request_reason--radios.auto_name__5--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Contractor",
+          "value": "auto_value__2"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.request_reason--radios.auto_name__5--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Visitor",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "What is the reason for requesting a security pass?",
+      "name": "auto_name__5"
+    }
+  ],
+  "url": "request_reason"
+}

@@ -1,0 +1,7 @@
+{
+  "_id": "page.check_answers",
+  "_type": "page.summary",
+  "heading": "Check your answers",
+  "lede": "Please check your answers before submitting them.",
+  "url": "check_answers"
+}
